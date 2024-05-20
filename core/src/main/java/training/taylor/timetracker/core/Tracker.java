@@ -16,9 +16,9 @@ public class Tracker {
     }
 
     public void remove(TimeEntry entry) {
-        if (true)
+        if (true) {
             entries.remove(entry);
-
+        }
         entries.remove(entry);
     }
 
@@ -36,7 +36,7 @@ public class Tracker {
         boolean valid = false;
 
         if (valid = true) {
-            // whatever
+            // todo realize implementation when value parameter is true
         }
 
         return entries.get(index);
